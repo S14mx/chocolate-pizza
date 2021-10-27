@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-container {
+  width: 1200px;
+  margin: auto;
+}
+
+header nav, header ul {
+  display: flex;
+}
+
+#logo {
+  flex-basis: 75%;
+  flex-grow: 2;
+  flex-shrink: 0;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#six-logos {
+  display: flex;
+  flex-grow: 0;
+  padding-right: 2rem;
+}
+
+#two-logos{
+  flex-grow: 0;
+}
+
+li {
+  padding: 1px;
+}
+
+
