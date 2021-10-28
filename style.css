@@ -25,15 +25,109 @@ h2 {
 #six-logos {
   display: flex;
   flex-grow: 0;
-  padding-right: 2rem;
+  padding: 50px 2rem 0 0;
+  
 }
 
-#two-logos{
+#two-logos {
   flex-grow: 0;
+  /* padding: 50px 0 0 0; */
+}
+
+ul {
+  padding: 50px 0 0 0;
 }
 
 li {
   padding: 1px;
+  color: gray;
 }
 
+#logo {
+  display: flex;
+  justify-content: left;
+  padding-top: 40px;
+}
 
+#logo-text {
+  font-size: 30px;
+  font-family: ‘Pacifico’, cursive;
+  
+}
+
+#logo-block {
+ padding-left: 10px; 
+}
+
+.fa-twitter-square, .fa-facebook-square, .fa-google-plus-square, .fa-instagram-square, .fa-flickr, .fa-pinterest-square, .fa-rss-square, .fa-envelope-square {
+  color: rgb(58, 58, 58);
+  font-size: 1.5rem;
+}
+
+#logo-block p {
+  font-size: 12px;
+  padding-top: 8px;
+  color:gray
+}
+
+#divider {
+  margin: 40px 0px 40px 0px;
+}
+
+h1 {
+  font-family: ‘Roboto’, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#print {
+  display: flex;
+  justify-content: space-between;
+  color:gray;
+  padding: 5px 0px 45px 0px;
+  
+}
+
+#print-p {
+  font-stretch: narrower;
+  font-size: 15px;
+  font-weight: lighter;
+  
+}
+
+section p {
+  padding: 18px 0px;
+  line-height: 1.5;
+  font-size: 20px;
+  color:rgb(92, 92, 92);
+}
+
+#main-image {
+  padding-bottom: 25px;
+}
+
+#list-image {
+  background-image: url("img/list-bg.png");
+  background-size: 1200px;
+  width: 1200px;
+  height: 400px;
+  padding-top: 25px;
+  display:flex;
+}
+
+#ul-one, #ul-two {
+  flex-basis: 50%;
+  flex-shrink: 0;
+  padding-top: 20px;
+}
+
+#list-image li {
+  padding-left: 120px;
+  font-family: ‘Pacifico’, cursive;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+section p:nth-last-of-type(1) {
+  padding-bottom: 45px;
+}
